@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-
+import RegisterUser from './Components/Registration/RegisterUser';
+import { useEffect } from 'react';
 function App() {
+  const msg = new SpeechSynthesisUtterance()
+  msg.text = "Hello, Welcome to Udyog Saarthi App!"
+
+
+
+  // useEffect(() => {
+  //   window.speechSynthesis.speak(msg)
+  // }, [msg])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {window.speechSynthesis.speak(msg)}
+      <RegisterUser />
     </div>
   );
 }

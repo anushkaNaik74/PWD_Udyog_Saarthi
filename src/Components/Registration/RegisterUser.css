@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Cinzel:wght@700&family=Dancing+Script:wght@700&display=swap");
+.sign_up_container {
+  font-family: "Comfortaa", cursive;
+  font-family: "Instrument Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  background-color: white;
+  border-style: inherit;
+  width: 500px;
+  height: 650px;
+  /* position: relative; */
+  border-radius: 10px;
+  box-shadow: 0 0.188em 1.55em rgba(220, 224, 213, 0.598);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  justify-content: center, space-around;
+  margin-top: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  /* margin-left: 100px; */
+}
+
+.sign_up_icon {
+    
+    transform: scale(2.2);
+    /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%,-30%);
+  padding-bottom: 600px; */
+    
+}
+.signUp {
+    height: 250vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alt-log {
+  width: 80%;
+  height: 3em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.alt-log div {
+  width: 45%;
+  height: 50%;
+  border-radius: 0.25em;
+  background-color: black;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.sign_up_user_Input{
+  width: 14em;
+  
+}
+
+.sign_up_user_Input:focus {
+  color: rgb(57, 62, 53);
+}
+
+
+.sign_up_btn1 {
+  background-color: #263b26ae; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+.sign_up_btn1:hover {
+  transform: scale(1.15);
+}
+
+.sign_up_links {
+  font-size: 17px;
+  display: flex;
+  flex-direction: row;
+  font-family: "Comfortaa", cursive;
+  font-family: "Instrument Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+
+
+
+.sign_up_heading {
+  font-family: "Caveat", cursive;
+  font-family: "Cinzel", serif;
+  font-family: "Dancing Script", cursive;
+  font-size: 45px;
+  padding-bottom: 600px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-30%);
+
+}
+
+@media only screen and (max-width: 600px) {
+    .sign_up_container {
+        font-family: "Comfortaa", cursive;
+        font-family: "Instrument Sans", sans-serif;
+        font-family: "Josefin Sans", sans-serif;
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 20px;
+        background-color: white;
+        border-style: inherit;
+        width: 300px;
+        height: 500px;
+        /* position: relative; */
+        border-radius: 10px;
+        box-shadow: 0 0.188em 1.55em rgba(155, 249, 3, 0.744);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        justify-content: center, space-around;
+        margin-top: 250px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-60%);
+        /* margin-left: 100px; */
+      }
+      
+      .sign_up_icon {
+          
+          transform: scale(1.9);
+          
+          
+      }
+      .signUp {
+          height: 150vh;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      .alt-log {
+        width: 80%;
+        height: 3em;
+        display: flex;
+        justify-content: space-around;
+      }
+      
+      .alt-log div {
+        width: 45%;
+        height: 50%;
+        border-radius: 0.25em;
+        background-color: black;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        cursor: pointer;
+      }
+      
+      .sign_up_user_Input{
+        width: 11em;
+        
+      }
+      
+      .sign_up_user_Input:focus {
+        color: rgb(113, 243, 7);
+      }
+      
+      .sign_up_btn1 {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 13px;
+        margin: 4px 2px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      
+      .sign_up_btn1:hover {
+        transform: scale(1.15);
+      }
+      
+      .sign_up_newAccount{
+        font-size: 17px;
+      }
+      
+      .sign_up_text{
+        font-size: 12px;
+        font-family: "Comfortaa", cursive;
+        font-family: "Instrument Sans", sans-serif;
+        font-family: "Josefin Sans", sans-serif;
+        font-family: "Source Sans Pro", sans-serif;
+      }
+      
+      
+      .sign_up_heading {
+        font-family: "Caveat", cursive;
+        font-family: "Cinzel", serif;
+        font-family: "Dancing Script", cursive;
+        font-size: 35px;
+        padding-bottom: 700px;
+        font-weight: bold;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-30%);
+      
+      }
+}
